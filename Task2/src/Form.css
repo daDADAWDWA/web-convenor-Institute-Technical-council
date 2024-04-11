@@ -1,0 +1,54 @@
+.container {
+ 
+  background-size: cover;
+  background-position: center;
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 100vh; /* Set height to 100% of viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  list-style: none;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: hsl(0, 76%, 3%);
+  box-shadow: 5px 2px 5px rgba(35, 156, 204, 0.1);
+  text-align: center; /* Center-align the content inside the container */
+  padding-right: 50px; /* Add padding to increase black portion */
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center items vertically */
+  
+ 
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold; /* Make the font bold */
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: rgb(255, 240, 240);
+  padding-top: 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.form-container button:hover {
+  background-color: #1daa80;
+}
